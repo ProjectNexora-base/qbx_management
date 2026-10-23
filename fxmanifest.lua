@@ -3,7 +3,7 @@ game 'gta5'
 
 description 'qbx_management'
 repository 'https://github.com/Qbox-project/qbx_management'
-version '1.4.0'
+version '1.4.1'
 
 ox_lib 'locale'
 
@@ -17,6 +17,7 @@ client_scripts {
 }
 
 server_scripts {
+	'server/pn-lib-config.lua',
     '@oxmysql/lib/MySQL.lua',
     'server/main.lua',
 }
